@@ -1,0 +1,36 @@
+/* -------------------------------------
+Hero
+------------------------------------- */
+.hero {
+  position: relative;
+}
+
+.hero-text {
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.hero-text h2 {
+  font-size: 64px;
+  margin-top: -2em;
+  margin-bottom: 1em;
+  line-height: 1.25;
+  text-shadow: 0 0 8px #fff;
+}
+
+.hero-text p {
+  font-size: 1.5em;
+}
+
+.hero-img {
+  height: 95vh;
+  width: 100%;
+}
